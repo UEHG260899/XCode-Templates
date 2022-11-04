@@ -8,16 +8,16 @@
 
 import Foundation
 
-class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterProtocol, ___VARIABLE_ModuleName___InteractorOutputProtocol {
-    //MARK: Properties
+class ___VARIABLE_ModuleName___Presenter {
+    weak var view: ___VARIABLE_ModuleName___ViewProtocol?
     var interactor: ___VARIABLE_ModuleName___InteractorInputProtocol?
-    weak private var view: ___VARIABLE_ModuleName___ViewProtocol?
-    private let router: ___VARIABLE_ModuleName___RouterProtocol
-    
-    
-    init(interface: ___VARIABLE_ModuleName___ViewProtocol, interactor: ___VARIABLE_ModuleName___InteractorInputProtocol, router: ___VARIABLE_ModuleName___RouterProtocol) {
-        self.view = interface
-        self.interactor = interactor
-        self.router = router
-    }
+    var router: ___VARIABLE_ModuleName___RouterProtocol?
+}
+
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterProtocol {
+
+}
+
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol {
+
 }

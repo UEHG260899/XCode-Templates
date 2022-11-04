@@ -8,13 +8,10 @@
 
 import Foundation
 
-class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorInputProtocol {
+class ___VARIABLE_ModuleName___Interactor  {
     weak var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol?
-     var service: ___VARIABLE_ModuleName___ServiceInputProtocol?
-    
 }
 
-
-extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___ServiceOutputProtocol {
-    // TODO: Implement use case methods
-} 
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorInputProtocol {
+    
+}
