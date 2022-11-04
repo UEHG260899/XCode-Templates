@@ -20,11 +20,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>El nombre del módulo a crear</string>
+			<string>Name of the module to create</string>
 			<key>Identifier</key>
 			<string>ModuleName</string>
 			<key>Name</key>
-			<string>Nuevo nombre del módulo:</string>
+			<string>Module name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
