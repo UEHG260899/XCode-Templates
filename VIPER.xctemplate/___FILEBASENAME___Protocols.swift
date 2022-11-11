@@ -6,7 +6,7 @@
 //  ___COPYRIGHT___
 //
 
-import Foundation
+import UIKit
 
 protocol ___VARIABLE_ModuleName___ViewProtocol: AnyObject {
     var presenter: ___VARIABLE_ModuleName___PresenterProtocol? {get set}
@@ -27,5 +27,6 @@ protocol ___VARIABLE_ModuleName___InteractorOutputProtocol: AnyObject {
 }
 
 protocol ___VARIABLE_ModuleName___RouterProtocol: AnyObject {
+    var navController: UINavigationController? { get set }
     static func createModule() -> ___VARIABLE_ModuleName___ViewController
 }

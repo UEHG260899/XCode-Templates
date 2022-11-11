@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___VARIABLE_ModuleName___Interactor  {
+class ___VARIABLE_ModuleName___Interactor {
     weak var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol?
 }
 
